@@ -1,0 +1,46 @@
+/* Index */
+.main-content{
+    background-image: linear-gradient(to top right, #e1ecff, #c0d6fe);
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.card-section
+{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.card-section .link-card{
+    background-image: linear-gradient(to top right, #513f82, #6670bd);
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    color: #fff;
+    margin: 20px 10px;
+}
+.card-section .link-card h3{
+    height: 80px;
+    display: grid;
+	align-items: center;
+    font-size: 30px;
+}
+.card-section .link-card a{
+    width: 98%;
+    margin-top: 20px;
+    background-color: #a8b9fa;
+    text-decoration: none;
+    color: #4d567d;
+    padding: 5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: block;
+}
+.card-section .link-card a:hover{
+    background-color: #8aa2ff;
+    color: #e1e6fc;
+    transition: ease-in .3s;
+}

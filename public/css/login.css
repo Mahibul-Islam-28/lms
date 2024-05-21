@@ -1,0 +1,84 @@
+/* Signin */
+.main-content{
+    background-image: linear-gradient(to top right, #e1ecff, #c0d6fe);
+    background-size: 100% 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.form-section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-section h2,
+.form-section h3{
+    text-align: center !important;
+    color: #535185;
+}
+.form-section h2{
+   margin-bottom: 20px;
+}
+.form-section h3{
+   margin-bottom: 40px;
+}
+#sign-form {
+    background-image: linear-gradient(to bottom right, rgba(137, 155, 255, 0.8), rgba(173, 204, 255, 0.8));
+    width: 320px;
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 5px 5px 20px 2px#777;
+    border-radius: 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+#sign-form h3{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#sign-form label{
+    font-weight: 500;
+}
+#sign-form input[type=text]{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+#sign-form input[type=text],
+#sign-form input[type=password] {
+    background-color: #fff;
+    color: #666;
+    padding: 10px 15px;
+    border: none;
+}
+#sign-form input[type=text]:focus,
+#sign-form input[type=text]:active,
+#sign-form input[type=password]:focus,
+#sign-form input[type=password]:active {
+    border: none;
+    box-shadow: none;
+}
+#sign-form .login-btn
+{
+    padding: 10px 40px;
+    font-weight: 500;
+    color: #ffffffbd;
+    font-weight: bold;
+    background: linear-gradient(to top left, #68a6fd, #3b8cff);
+    border: 2px solid #5da0ff;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+#sign-form .login-btn:hover
+{
+    border-color: #2160b9;
+    background: #5da0ff;
+    transition: ease-in .5s;
+}
+
+@media only screen and (max-width: 991px) {
+    .main-content{
+        min-height: 90vh;
+    }
+}
